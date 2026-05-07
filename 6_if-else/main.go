@@ -26,4 +26,6 @@ func main() {
 	} else {
 		fmt.Println("Access Denied")
 	}
+
+	// go dosen't have ternery operator
 }
