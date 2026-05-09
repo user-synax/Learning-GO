@@ -27,4 +27,10 @@ func main() {
 		fmt.Println(k, ":", v)
 	}
 
+	// Using range on string
+
+	for i, c := range "GoLang"{
+		fmt.Println(i, string(c))
+	}
+
 }
